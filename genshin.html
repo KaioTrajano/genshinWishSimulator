@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://kit.fontawesome.com/95442199ab.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="_css/genshin.css">
+    <title>Document</title>
+</head>
+
+
+
+
+<body id="corpo">
+    
+    
+
+        <audio src="genshin_images/wishmusic.mp3" allow="autoplay" loop  style="display:none" id="iframeAudio">
+        </audio>
+        <audio src="genshin_images/buttoneffect.mp3" style="display:none" id="buttoneffect">
+        </audio>
+        <audio src="genshin_images/pushsound.mp3" style="display:none" id="pushsound">
+        </audio>  
+        
+
+<main id="principal">
+
+<div class="banners">
+    <h1></h1>
+    <div class="bannericon">
+  <img id="banneroption" src="/genshin_images/zhongliimage2.png" alt="">
+  </div>
+</div>
+
+<div class="banner">
+ <img src="/genshin_images/bannerzhongli.svg" alt="">
+</div>
+
+<div class="buttons">
+    
+    <div class="left">
+    <button>Loja</button>
+    <button>Detalhes</button>
+    <button>Historico</button>
+     </div>
+
+    <div class="right">
+    <button onclick="push1()">Desejo x1</button>
+    <button onclick="push10()">Desejo x10</button>
+    </div>
+
+</div>
+
+<div class="modal" id="modal">
+    <i onclick="fechar()" class="fa-solid fa-circle-xmark"></i>
+    <div id="div1" class="item1"><img src="" alt="" class="item" id="item1"></div>
+    <div id="div1" class="item2"><img src="" alt="" class="item" id="item2"></div>
+    <div class="item3"><img src="" alt="" class="item" id="item3"></div>
+    <div class="item4"><img src="" alt="" class="item" id="item4"></div>
+    <div class="item5"><img src="" alt="" class="item" id="item5"></div>
+    <div class="item6"><img src="" alt="" class="item" id="item6"></div>
+    <div class="item7"><img src="" alt="" class="item" id="item7"></div>
+    <div class="item8"><img src="" alt="" class="item" id="item8"></div>
+    <div class="item9"><img src="" alt="" class="item" id="item9"></div>
+    <div class="item10"><img src=""alt="" class="item" id="item10"></div>
+    
+</div>
+
+
+
+<div class="modalvideo" id="modalvideo">
+    <p id="skip" onclick="pular()">Pular >></p>
+    <video over  id="videoshot5">
+        <source src="/genshin_images/5starwish.mp4" type="video/mp4" />
+        </video>  
+</div>
+
+<div class="modalvideo2" id="modalvideo2">
+    <p id="skip" onclick="pular()">Pular >></p>
+    <video over  id="videoshot">
+        <source src="/genshin_images/4starsshot.mp4" type="video/mp4" />
+        </video>
+</div>
+
+<div class="modalvideo3" id="modalvideo3">
+    <p id="skip" onclick="pular()">Pular >></p>
+    <video over id="videoshot3">
+        <source src="/genshin_images/3starshot.mp4" type="video/mp4" />
+        </video>
+</div>
+
+
+
+
+
+</main>
+
+
+
+<div class="dialog" id="dialog">
+    <h1>Genshin Simulador de banner</h1>
+    <img id="characters" src="/genshin_images/popupimage.png">
+    <button id="confirm"><img src="/genshin_images/circle.png">Confirmar</button>
+    </div>
+
+</body>
+
+<script type="text/javascript" src="/_javascript/genshin.js"></script>
+
+
+
+</html>
