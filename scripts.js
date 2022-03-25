@@ -349,7 +349,7 @@ var images = [
     
     
     
-    item1.getAttribute('src') == "/genshin_images/beidou.svg" | item1.getAttribute('src') == "/genshin_images/xinqiu.svg" | item1.getAttribute('src') == "/genshin_images/yanfei.svg" ? epicitensbackground() : console.log("não é")
+    item1.getAttribute('src') == "beidou.svg" | item1.getAttribute('src') == "xinqiu.svg" | item1.getAttribute('src') == "yanfei.svg" ? epicitensbackground() : console.log("não é")
     item2.getAttribute('src') == "beidou.svg" | item2.getAttribute('src') == "xinqiu.svg" | item2.getAttribute('src') == "yanfei.svg" ?
     item2.style.backgroundImage = "url('epicbackground.svg')" : item2.style.backgroundImage = "url('itembackground.svg')"
     item3.getAttribute('src') == "beidou.svg" | item2.getAttribute('src') == "xinqiu.svg" | item2.getAttribute('src') == "yanfei.svg" ?
@@ -442,21 +442,21 @@ var images = [
         
         
     item3.getAttribute('src') == "zhongli.svg" ?
-    item3.style.backgroundImage = "epicbackground.svg')" : "batata"
+    item3.style.backgroundImage = "background5stars.svg')" : "batata"
     item4.getAttribute('src') == "zhongli.svg" ?
-    item4.style.backgroundImage = "epicbackground.svg')" : "batata"
+    item4.style.backgroundImage = "background5stars.svg')" : "batata"
     item5.getAttribute('src') == "zhongli.svg" ?
-    item5.style.backgroundImage = "epicbackground.svg')" : "batata"
+    item5.style.backgroundImage = "background5stars.svg')" : "batata"
     item6.getAttribute('src') == "zhongli.svg" ?
-    item6.style.backgroundImage = "epicbackground.svg')" : "batata"
+    item6.style.backgroundImage = "background5stars.svg')" : "batata"
     item7.getAttribute('src') == "zhongli.svg" ?
-    item7.st7le.backgroundImage = "url('epicbackground.svg')" : "batata"
+    item7.st7le.backgroundImage = "url('background5stars.svg')" : "batata"
     item8.getAttribute('src') == "zhongli.svg" ?
-    item8.style.backgroundImage = "url('epicbackground.svg')" : "batata"
+    item8.style.backgroundImage = "url('background5stars.svg')" : "batata"
     item9.getAttribute('src') == "zhongli.svg" ?
-    item9.style.backgroundImage = "url('epicbackground.svg')" : "batata"
+    item9.style.backgroundImage = "url('background5stars.svg')" : "batata"
     item10.getAt8ribute('src') == "zhongli.svg" ?
-    item10.style.backgroundImage = "url('epicbackground.svg')" : "batata"
+    item10.style.backgroundImage = "url('background5stars.svg')" : "batata"
     
     
     }
