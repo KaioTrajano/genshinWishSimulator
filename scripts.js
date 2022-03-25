@@ -382,29 +382,9 @@ var images = [
     item7.getAttribute('src') == "zhongli.svg" | item8.getAttribute('src') == "zhongli.svg" | 
     item9.getAttribute('src') == "zhongli.svg" | item10.getAttribute('src') == "zhongli.svg" ? play5starsshot() : play4starsshot()
         
-    item3.getAttribute('src') == "zhongli.svg" ?
-    item3.style.backgroundImage = "background5stars.svg')" : "batata"
-    item4.getAttribute('src') == "zhongli.svg" ?
-    item4.style.backgroundImage = "background5stars.svg')" : "batata"
-    item5.getAttribute('src') == "zhongli.svg" ?
-    item5.style.backgroundImage = "background5stars.svg')" : "batata"
-    item6.getAttribute('src') == "zhongli.svg" ?
-    item6.style.backgroundImage = "background5stars.svg')" : "batata"
-    item7.getAttribute('src') == "zhongli.svg" ?
-    item7.st7le.backgroundImage = "url('background5stars.svg')" : "batata"
-    item8.getAttribute('src') == "zhongli.svg" ?
-    item8.style.backgroundImage = "url('background5stars.svg')" : "batata"
-    item9.getAttribute('src') == "zhongli.svg" ?
-    item9.style.backgroundImage = "url('background5stars.svg')" : "batata"
-    item10.getAt8ribute('src') == "zhongli.svg" ?
-    item10.style.backgroundImage = "url('background5stars.svg')" : "batata"
+   
         
-        
-        
-        
-        
-        
-        
+       
     
         item1.getAttribute('src') == "zhongli.svg" ? item1.style.backgroundImage = "url('background5stars.svg')" : console.log("não é")
         item2.getAttribute('src') == "zhongli.svg" ? item2.style.backgroundImage = "url('background5stars.svg')" : console.log("não é")
