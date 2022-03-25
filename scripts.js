@@ -311,20 +311,20 @@ var images = [
     item2.style.backgroundImage = "url('epicbackground.svg')"
     item3.getAttribute('src') == "beidou.svg" | item3.getAttribute('src') == "xinqiu.svg" | item3.getAttribute('src') == "yanfei.svg" ?
     item3.style.backgroundImage = "url('epicbackground.svg')" : item3.style.backgroundImage = "url('itembackground.svg')"
-    item4.getAttribute('src') == "beidou.svg" | item3.getAttribute('src') == "xinqiu.svg" | item3.getAttribute('src') == "yanfei.svg" ?
-    item4.style.backgroundImage = "url('epicbackground.svg')" : item3.style.backgroundImage = "url('itembackground.svg')"
-    item5.getAttribute('src') == "beidou.svg" | item3.getAttribute('src') == "xinqiu.svg" | item3.getAttribute('src') == "yanfei.svg" ?
-    item5.style.backgroundImage = "url('epicbackground.svg')" : item3.style.backgroundImage = "url('itembackground.svg')"
-    item6.getAttribute('src') == "beidou.svg" | item3.getAttribute('src') == "xinqiu.svg" | item3.getAttribute('src') == "yanfei.svg" ?
-    item6.style.backgroundImage = "url('epicbackground.svg')" : item3.style.backgroundImage = "url('itembackground.svg')"
-    item7.getAttribute('src') == "beidou.svg" | item3.getAttribute('src') == "xinqiu.svg" | item3.getAttribute('src') == "yanfei.svg" ?
-    item7.style.backgroundImage = "url('epicbackground.svg')" : item3.style.backgroundImage = "url('itembackground.svg')"
-    item8.getAttribute('src') == "beidou.svg" | item3.getAttribute('src') == "xinqiu.svg" | item3.getAttribute('src') == "yanfei.svg" ?
-    item8.style.backgroundImage = "url('epicbackground.svg')" : item3.style.backgroundImage = "url('itembackground.svg')"
-    item9.getAttribute('src') == "beidou.svg" | item3.getAttribute('src') == "xinqiu.svg" | item3.getAttribute('src') == "yanfei.svg" ?
-    item9.style.backgroundImage = "url('epicbackground.svg')" : item3.style.backgroundImage = "url('itembackground.svg')"
-    item10.getAttribute('src') == "beidou.svg" | item3.getAttribute('src') == "xinqiu.svg" | item3.getAttribute('src') == "yanfei.svg" ?
-    item10.style.backgroundImage = "url('epicbackground.svg')" : item3.style.backgroundImage = "url('itembackground.svg')"
+    item4.getAttribute('src') == "beidou.svg" | item4.getAttribute('src') == "xinqiu.svg" | item4.getAttribute('src') == "yanfei.svg" ?
+    item4.style.backgroundImage = "url('epicbackground.svg')" : item4.style.backgroundImage = "url('itembackground.svg')"
+    item5.getAttribute('src') == "beidou.svg" | item5.getAttribute('src') == "xinqiu.svg" | item5.getAttribute('src') == "yanfei.svg" ?
+    item5.style.backgroundImage = "url('epicbackground.svg')" : item5.style.backgroundImage = "url('itembackground.svg')"
+    item6.getAttribute('src') == "beidou.svg" | item6.getAttribute('src') == "xinqiu.svg" | item6.getAttribute('src') == "yanfei.svg" ?
+    item6.style.backgroundImage = "url('epicbackground.svg')" : item6.style.backgroundImage = "url('itembackground.svg')"
+    item7.getAttribute('src') == "beidou.svg" | item7.getAttribute('src') == "xinqiu.svg" | item7.getAttribute('src') == "yanfei.svg" ?
+    item7.style.backgroundImage = "url('epicbackground.svg')" : item7.style.backgroundImage = "url('itembackground.svg')"
+    item8.getAttribute('src') == "beidou.svg" | item8.getAttribute('src') == "xinqiu.svg" | item8.getAttribute('src') == "yanfei.svg" ?
+    item8.style.backgroundImage = "url('epicbackground.svg')" : item8.style.backgroundImage = "url('itembackground.svg')"
+    item9.getAttribute('src') == "beidou.svg" | item9.getAttribute('src') == "xinqiu.svg" | item9.getAttribute('src') == "yanfei.svg" ?
+    item9.style.backgroundImage = "url('epicbackground.svg')" : item9.style.backgroundImage = "url('itembackground.svg')"
+    item10.getAttribute('src') == "beidou.svg" | item10.getAttribute('src') == "xinqiu.svg" | item10.getAttribute('src') == "yanfei.svg" ?
+    item10.style.backgroundImage = "url('epicbackground.svg')" : item10.style.backgroundImage = "url('itembackground.svg')"
     
     
 
@@ -354,22 +354,22 @@ var images = [
     item1.style.backgroundImage = "url('epicbackground.svg')" : "batata"
     item2.getAttribute('src') == "beidou.svg" | item2.getAttribute('src') == "xinqiu.svg" | item2.getAttribute('src') == "yanfei.svg" ? 
     item2.style.backgroundImage = "url('epicbackground.svg')" : item2.style.backgroundImage = "url('itembackground.svg')"
-    item3.getAttribute('src') == "beidou.svg" | item2.getAttribute('src') == "xinqiu.svg" | item2.getAttribute('src') == "yanfei.svg" ?
-    item3.style.backgroundImage = "url('epicbackground.svg')" : item2.style.backgroundImage = "url('itembackground.svg')"
-    item4.getAttribute('src') == "beidou.svg" | item2.getAttribute('src') == "xinqiu.svg" | item2.getAttribute('src') == "yanfei.svg" ?
-    item4.style.backgroundImage = "url('epicbackground.svg')" : item2.style.backgroundImage = "url('itembackground.svg')"
-    item5.getAttribute('src') == "beidou.svg" | item2.getAttribute('src') == "xinqiu.svg" | item2.getAttribute('src') == "yanfei.svg" ?
-    item5.style.backgroundImage = "url('epicbackground.svg')" : item2.style.backgroundImage = "url('itembackground.svg')"
-    item6.getAttribute('src') == "beidou.svg" | item2.getAttribute('src') == "xinqiu.svg" | item2.getAttribute('src') == "yanfei.svg" ?
-    item6.style.backgroundImage = "url('epicbackground.svg')" : item2.style.backgroundImage = "url('itembackground.svg')"
-    item7.getAttribute('src') == "beidou.svg" | item2.getAttribute('src') == "xinqiu.svg" | item2.getAttribute('src') == "yanfei.svg" ?
-    item7.style.backgroundImage = "url('epicbackground.svg')" : item2.style.backgroundImage = "url('itembackground.svg')"
-    item8.getAttribute('src') == "beidou.svg" | item2.getAttribute('src') == "xinqiu.svg" | item2.getAttribute('src') == "yanfei.svg" ?
-    item8.style.backgroundImage = "url('epicbackground.svg')" : item2.style.backgroundImage = "url('itembackground.svg')"
-    item9.getAttribute('src') == "beidou.svg" | item2.getAttribute('src') == "xinqiu.svg" | item2.getAttribute('src') == "yanfei.svg" ?
-    item9.style.backgroundImage = "url('epicbackground.svg')" : item2.style.backgroundImage = "url('itembackground.svg')"
-    item10.getAttribute('src') == "beidou.svg" | item2.getAttribute('src') == "xinqiu.svg" | item2.getAttribute('src') == "yanfei.svg" ?
-    item10.style.backgroundImage = "url('epicbackground.svg')" : item2.style.backgroundImage = "url('itembackground.svg')"
+    item3.getAttribute('src') == "beidou.svg" | item3.getAttribute('src') == "xinqiu.svg" | item3.getAttribute('src') == "yanfei.svg" ?
+    item3.style.backgroundImage = "url('epicbackground.svg')" : item3.style.backgroundImage = "url('itembackground.svg')"
+    item4.getAttribute('src') == "beidou.svg" | item4.getAttribute('src') == "xinqiu.svg" | item4.getAttribute('src') == "yanfei.svg" ?
+    item4.style.backgroundImage = "url('epicbackground.svg')" : item4.style.backgroundImage = "url('itembackground.svg')"
+    item5.getAttribute('src') == "beidou.svg" | item5.getAttribute('src') == "xinqiu.svg" | item5.getAttribute('src') == "yanfei.svg" ?
+    item5.style.backgroundImage = "url('epicbackground.svg')" : item5.style.backgroundImage = "url('itembackground.svg')"
+    item6.getAttribute('src') == "beidou.svg" | item6.getAttribute('src') == "xinqiu.svg" | item6.getAttribute('src') == "yanfei.svg" ?
+    item6.style.backgroundImage = "url('epicbackground.svg')" : item6.style.backgroundImage = "url('itembackground.svg')"
+    item7.getAttribute('src') == "beidou.svg" | item7.getAttribute('src') == "xinqiu.svg" | item7.getAttribute('src') == "yanfei.svg" ?
+    item7.style.backgroundImage = "url('epicbackground.svg')" : item7.style.backgroundImage = "url('itembackground.svg')"
+    item8.getAttribute('src') == "beidou.svg" | item8.getAttribute('src') == "xinqiu.svg" | item8.getAttribute('src') == "yanfei.svg" ?
+    item8.style.backgroundImage = "url('epicbackground.svg')" : item8.style.backgroundImage = "url('itembackground.svg')"
+    item9.getAttribute('src') == "beidou.svg" | item9.getAttribute('src') == "xinqiu.svg" | item9.getAttribute('src') == "yanfei.svg" ?
+    item9.style.backgroundImage = "url('epicbackground.svg')" : item9.style.backgroundImage = "url('itembackground.svg')"
+    item10.getAttribute('src') == "beidou.svg" | item10.getAttribute('src') == "xinqiu.svg" | item10.getAttribute('src') == "yanfei.svg" ?
+    item10.style.backgroundImage = "url('epicbackground.svg')" : item10.style.backgroundImage = "url('itembackground.svg')"
         
     
     item1.getAttribute('src') == "zhongli.svg" | item2.getAttribute('src') == "zhongli.svg" | 
