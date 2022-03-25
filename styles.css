@@ -19,7 +19,7 @@
 }
 
 body{
-    background-image: url("/genshin_images/backgrounddesejo.png");
+    background-image: url(backgrounddesejo.png);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -139,7 +139,7 @@ margin-top: 5px;
     justify-content: center;
     gap: 15px;
     visibility: hidden;
-    background-image: url("/genshin_images/backgroundgacha.png");
+    background-image: url(backgroundgacha.png);
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -155,7 +155,7 @@ margin-top: 5px;
     align-items: center;
     vertical-align: middle;
     filter: brightness(100%);
-    background-image: url("genshin_images/itembackground.svg");
+    background-image: url(itembackground.svg);
     background-size: cover;
     cursor: pointer;
     
@@ -323,7 +323,7 @@ video{
    border-radius: 5px;
     font-size: 15px;
     animation: popup 0.8s;
-    background-image: url(/genshin_images/popupbackground.png);
+    background-image: url(popupbackground.png);
     
 
 }
