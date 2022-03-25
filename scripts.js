@@ -351,7 +351,7 @@ var images = [
     
     item1.getAttribute('src') == "beidou.svg" | item1.getAttribute('src') == "xinqiu.svg" | item1.getAttribute('src') == "yanfei.svg" ? epicitensbackground() : console.log("não é")
     item1.getAttribute('src') == "beidou.svg" | item1.getAttribute('src') == "xinqiu.svg" | item1.getAttribute('src') == "yanfei.svg" ?
-    item1.style.backgroundImage = "url('epicbackground.svg')" : "batata
+    item1.style.backgroundImage = "url('epicbackground.svg')" : "batata"
     item2.getAttribute('src') == "beidou.svg" | item2.getAttribute('src') == "xinqiu.svg" | item2.getAttribute('src') == "yanfei.svg" ? 
     item2.style.backgroundImage = "url('epicbackground.svg')" : item2.style.backgroundImage = "url('itembackground.svg')"
     item3.getAttribute('src') == "beidou.svg" | item2.getAttribute('src') == "xinqiu.svg" | item2.getAttribute('src') == "yanfei.svg" ?
