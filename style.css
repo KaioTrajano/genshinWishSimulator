@@ -1,3 +1,11 @@
+html{
+    -webkit-touch-callout: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
 
 
 .banner {
@@ -19,9 +27,11 @@
 }
 
 body{
-    background-image: url(backgrounddesejo.png);
+    background-image: url("backgrounddesejo.png");
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: sans-serif;
+    color: rgb(82, 82, 82);
     
     
 }
@@ -79,7 +89,30 @@ button{
     justify-content: center;
     margin-left: 15px;
     margin-right: 15px;
+    flex-direction: row;
+    justify-items: center;
+    gap: 25px;
 
+}
+
+.pity{
+    color: rgb(82, 82, 82);
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 150px;
+    
+    
+    
+    
+
+}
+
+label{
+    margin-right: 25px ;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    padding: 8px;
 }
 
 .banners img{
@@ -139,7 +172,7 @@ margin-top: 5px;
     justify-content: center;
     gap: 15px;
     visibility: hidden;
-    background-image: url(backgroundgacha.png);
+    background-image: url("backgroundgacha.png");
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -155,7 +188,7 @@ margin-top: 5px;
     align-items: center;
     vertical-align: middle;
     filter: brightness(100%);
-    background-image: url(itembackground.svg);
+    background-image: url("itembackground.svg");
     background-size: cover;
     cursor: pointer;
     
@@ -358,6 +391,12 @@ video{
     margin-bottom: 45px;
 }
 
+button:hover{
+ background-color: rgb(223, 216, 189);
+ transition: 0.3s;
+ 
+}
+
 
 
 @-webkit-keyframes popup {
@@ -376,7 +415,7 @@ video{
         height: 405px;
         animation: banneranimation 8s infinite;
         animation-timing-function: linear;
-        
+
        
     }
 
