@@ -155,7 +155,7 @@ var images = [
     ]
     
     var lendarios = [
-    "/genshin_images/zhongli.svg",
+    "zhongli.svg",
     
     ];
     
