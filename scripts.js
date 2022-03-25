@@ -115,42 +115,42 @@ var images = [
     ];
 
     var raros = [
-    "/genshin_images/xinqiu.svg",
-    "/genshin_images/beidou.svg",
-    "/genshin_images/yanfei.svg",
+    "xinqiu.svg",
+    "beidou.svg",
+    "yanfei.svg",
     ];
 
     var pity76 = [
-    "/genshin_images/zhongli.svg",
-    "/genshin_images/item3estrelas3.svg",   
-    "/genshin_images/item3estrelas4.svg",          
-    "/genshin_images/item3estrelas5.svg",   
-    "/genshin_images/item3estrelas6.svg",  
+    "zhongli.svg",
+    "item3estrelas3.svg",   
+    "item3estrelas4.svg",          
+    "item3estrelas5.svg",   
+    "item3estrelas6.svg",  
     ]
 
     var push1pity = [
 
-        "/genshin_images/beidou.svg",
-        "/genshin_images/item3estrelas3.svg",   
-        "/genshin_images/item3estrelas4.svg",          
-        "/genshin_images/item3estrelas5.svg",   
-        "/genshin_images/item3estrelas6.svg",   
-        "/genshin_images/item3estrelas7.svg",   
-        "/genshin_images/item3estrelas8.svg",   
-        "/genshin_images/xinqiu.svg",   
-        "/genshin_images/item3estrelas10.svg",
-        "/genshin_images/item3estrelas1.svg",
-        "/genshin_images/item3estrelas2.svg",
-        "/genshin_images/yanfei.svg",   
-        "/genshin_images/item3estrelas4.svg",          
-        "/genshin_images/item3estrelas5.svg",   
-        "/genshin_images/item3estrelas6.svg",   
-        "/genshin_images/item3estrelas7.svg",   
-        "/genshin_images/item3estrelas8.svg",   
-        "/genshin_images/item3estrelas9.svg",   
-        "/genshin_images/item3estrelas10.svg",
-        "/genshin_images/item3estrelas1.svg",
-        "/genshin_images/item3estrelas2.svg",
+         "beidou.svg",
+        "item3estrelas3.svg",   
+        "item3estrelas4.svg",          
+        "item3estrelas5.svg",   
+        "item3estrelas6.svg",   
+        "item3estrelas7.svg",   
+        "item3estrelas8.svg",   
+        "xinqiu.svg",   
+        "item3estrelas10.svg",
+        "item3estrelas1.svg",
+        "item3estrelas2.svg",
+        "yanfei.svg",   
+        "item3estrelas4.svg",          
+        "item3estrelas5.svg",   
+        "item3estrelas6.svg",   
+        "item3estrelas7.svg",   
+        "item3estrelas8.svg",   
+        "item3estrelas9.svg",   
+        "item3estrelas10.svg",
+        "item3estrelas1.svg",
+        "item3estrelas2.svg",
 
     ]
     
@@ -200,10 +200,10 @@ var images = [
     
     confirmar.addEventListener("click", playaudio)
     banneroption.addEventListener("mouseenter", () =>{
-        banneroption.src = "/genshin_images/zhongliimage.png"  
+        banneroption.src = "zhongliimage.png"  
     })
     banneroption.addEventListener("mouseleave", () =>{
-        banneroption.src = "/genshin_images/zhongliimage2.png" 
+        banneroption.src = "zhongliimage2.png" 
     })
     
         
@@ -237,7 +237,7 @@ var images = [
     }
     
     function epicitensbackground(){
-    item1.style.backgroundImage = "url('/genshin_images/epicbackground.svg')"    
+    item1.style.backgroundImage = "url(epicbackground.svg)"    
     
     
     }
@@ -286,45 +286,46 @@ var images = [
         item10.src = "" + images[Math.floor(Math.random() * images.length   )] + "";
     
        
-    item1.getAttribute('src') == "/genshin_images/zhongli.svg" | item2.getAttribute('src') == "/genshin_images/zhongli.svg" | 
-    item3.getAttribute('src') == "/genshin_images/zhongli.svg" | item4.getAttribute('src') == "/genshin_images/zhongli.svg" | 
-    item5.getAttribute('src') == "/genshin_images/zhongli.svg" | item6.getAttribute('src') == "/genshin_images/zhongli.svg" | 
-    item7.getAttribute('src') == "/genshin_images/zhongli.svg" | item8.getAttribute('src') == "/genshin_images/zhongli.svg" | 
-    item9.getAttribute('src') == "/genshin_images/zhongli.svg" | item10.getAttribute('src') == "/genshin_images/zhongli.svg" ? play5starsshot() : play4starsshot()
+    item1.getAttribute('src') == "zhongli.svg" | item2.getAttribute('src') == "zhongli.svg" | 
+    item3.getAttribute('src') == "zhongli.svg" | item4.getAttribute('src') == "zhongli.svg" | 
+    item5.getAttribute('src') == "zhongli.svg" | item6.getAttribute('src') == "zhongli.svg" | 
+    item7.getAttribute('src') == "zhongli.svg" | item8.getAttribute('src') == "zhongli.svg" | 
+    item9.getAttribute('src') == "zhongli.svg" | item10.getAttribute('src') == "zhongli.svg" ? play5starsshot() : play4starsshot()
 
-    item1.getAttribute('src') == "/genshin_images/zhongli.svg" ? item1.style.backgroundImage = "url('/genshin_images/background5stars.svg')" : console.log("não é")
-    item2.getAttribute('src') == "/genshin_images/zhongli.svg" ?  item2.style.backgroundImage = "url('/genshin_images/background5stars.svg')" : console.log("não é")
-    item3.getAttribute('src') == "/genshin_images/zhongli.svg" ? item3.style.backgroundImage = "url('/genshin_images/background5stars.svg')" : console.log("não é")
-    item4.getAttribute('src') == "/genshin_images/zhongli.svg" ? item4.style.backgroundImage = "url('/genshin_images/background5stars.svg')" : console.log("não é")
-    item5.getAttribute('src') == "/genshin_images/zhongli.svg" ? item5.style.backgroundImage = "url('/genshin_images/background5stars.svg')": console.log("não é")
-    item6.getAttribute('src') == "/genshin_images/zhongli.svg" ? item6.style.backgroundImage = "url('/genshin_images/background5stars.svg')" : console.log("não é")
-    item7.getAttribute('src') == "/genshin_images/zhongli.svg" ? item7.style.backgroundImage = "url('/genshin_images/background5stars.svg')": console.log("não é")
-    item8.getAttribute('src') == "/genshin_images/zhongli.svg" ? item8.style.backgroundImage = "url('/genshin_images/background5stars.svg')" : console.log("não é")
-    item9.getAttribute('src') == "/genshin_images/zhongli.svg" ? item9.style.backgroundImage = "url('/genshin_images/background5stars.svg')" : console.log("não é")
-    item10.getAttribute('src') == "/genshin_images/zhongli.svg" ? item10.style.backgroundImage = "url('/genshin_images/background5stars.svg')": console.log("não é")
+    item1.getAttribute('src') == "zhongli.svg" ? item1.style.backgroundImage = "url('background5stars.svg')" : console.log("não é")
+    item2.getAttribute('src') == "zhongli.svg" ?  item2.style.backgroundImage = "url('background5stars.svg')" : console.log("não é")
+    item3.getAttribute('src') == "zhongli.svg" ? item3.style.backgroundImage = "url('background5stars.svg')" : console.log("não é")
+    item4.getAttribute('src') == "zhongli.svg" ? item4.style.backgroundImage = "url('background5stars.svg')" : console.log("não é")
+    item5.getAttribute('src') == "zhongli.svg" ? item5.style.backgroundImage = "url('background5stars.svg')": console.log("não é")
+    item6.getAttribute('src') == "zhongli.svg" ? item6.style.backgroundImage = "url('background5stars.svg')" : console.log("não é")
+    item7.getAttribute('src') == "zhongli.svg" ? item7.style.backgroundImage = "url('background5stars.svg')": console.log("não é")
+    item8.getAttribute('src') == "zhongli.svg" ? item8.style.backgroundImage = "url('background5stars.svg')" : console.log("não é")
+    item9.getAttribute('src') == "zhongli.svg" ? item9.style.backgroundImage = "url('background5stars.svg')" : console.log("não é")
+    item10.getAttribute('src') == "zhongli.svg" ? item10.style.backgroundImage = "url('background5stars.svg')": console.log("não é")
 
 
         pity5estrelas.innerHTML=  "Pity 5 estrelas: " + pity5
     
-    item1.getAttribute('src') !== "/genshin_images/zhongli.svg" ?
-    item1.style.backgroundImage = "url('/genshin_images/itembackground.svg')" : item1.style.backgroundImage = "url('/genshin_images/background5stars.svg')"
-    item2.style.backgroundImage = "url('/genshin_images/epicbackground.svg')"
-    item3.getAttribute('src') == "/genshin_images/beidou.svg" | item3.getAttribute('src') == "/genshin_images/xinqiu.svg" | item3.getAttribute('src') == "/genshin_images/yanfei.svg" ?
-    item3.style.backgroundImage = "url('/genshin_images/epicbackground.svg')" : item3.style.backgroundImage = "url('/genshin_images/itembackground.svg')"
-    item4.getAttribute('src') == "/genshin_images/beidou.svg" | item4.getAttribute('src') == "/genshin_images/xinqiu.svg" | item4.getAttribute('src') == "/genshin_images/yanfei.svg" ?
-    item4.style.backgroundImage = "url('/genshin_images/epicbackground.svg')" : item4.style.backgroundImage = "url('/genshin_images/itembackground.svg')"
-    item5.getAttribute('src') == "/genshin_images/beidou.svg" | item5.getAttribute('src') == "/genshin_images/xinqiu.svg" | item5.getAttribute('src') == "/genshin_images/yanfei.svg" ?
-    item5.style.backgroundImage = "url('/genshin_images/epicbackground.svg')" : item5.style.backgroundImage = "url('/genshin_images/itembackground.svg')"
-    item6.getAttribute('src') == "/genshin_images/beidou.svg" | item6.getAttribute('src') == "/genshin_images/xinqiu.svg" | item6.getAttribute('src') == "/genshin_images/yanfei.svg" ?
-    item6.style.backgroundImage = "url('/genshin_images/epicbackground.svg')" : item6.style.backgroundImage = "url('/genshin_images/itembackground.svg')"
-    item7.getAttribute('src') == "/genshin_images/beidou.svg" | item7.getAttribute('src') == "/genshin_images/xinqiu.svg" | item7.getAttribute('src') == "/genshin_images/yanfei.svg" ?
-    item7.style.backgroundImage = "url('/genshin_images/epicbackground.svg')" : item7.style.backgroundImage = "url('/genshin_images/itembackground.svg')"
-    item8.getAttribute('src') == "/genshin_images/beidou.svg" | item8.getAttribute('src') == "/genshin_images/xinqiu.svg" | item8.getAttribute('src') == "/genshin_images/yanfei.svg" ?
-    item8.style.backgroundImage = "url('/genshin_images/epicbackground.svg')" : item8.style.backgroundImage = "url('/genshin_images/itembackground.svg')"
-    item9.getAttribute('src') == "/genshin_images/beidou.svg" | item9.getAttribute('src') == "/genshin_images/xinqiu.svg" | item9.getAttribute('src') == "/genshin_images/yanfei.svg" ?
-    item9.style.backgroundImage = "url('/genshin_images/epicbackground.svg')" : item9.style.backgroundImage = "url('/genshin_images/itembackground.svg')"
-    item10.getAttribute('src') == "/genshin_images/beidou.svg" | item10.getAttribute('src') == "/genshin_images/xinqiu.svg" | item10.getAttribute('src') == "/genshin_images/yanfei.svg" ?
-    item10.style.backgroundImage = "url('/genshin_images/epicbackground.svg')" : item10.style.backgroundImage = "url('/genshin_images/itembackground.svg')"
+    item1.getAttribute('src') !== "zhongli.svg" ?
+    item1.style.backgroundImage = "url('itembackground.svg')" : item1.style.backgroundImage = "url('background5stars.svg')"
+    item2.style.backgroundImage = "url('epicbackground.svg')"
+    item3.getAttribute('src') == "beidou.svg" | item3.getAttribute('src') == "xinqiu.svg" | item3.getAttribute('src') == "yanfei.svg" ?
+    item3.style.backgroundImage = "url('epicbackground.svg')" : item3.style.backgroundImage = "url('itembackground.svg')"
+    item4.getAttribute('src') == "beidou.svg" | item3.getAttribute('src') == "xinqiu.svg" | item3.getAttribute('src') == "yanfei.svg" ?
+    item4.style.backgroundImage = "url('epicbackground.svg')" : item3.style.backgroundImage = "url('itembackground.svg')"
+    item5.getAttribute('src') == "beidou.svg" | item3.getAttribute('src') == "xinqiu.svg" | item3.getAttribute('src') == "yanfei.svg" ?
+    item5.style.backgroundImage = "url('epicbackground.svg')" : item3.style.backgroundImage = "url('itembackground.svg')"
+    item6.getAttribute('src') == "beidou.svg" | item3.getAttribute('src') == "xinqiu.svg" | item3.getAttribute('src') == "yanfei.svg" ?
+    item6.style.backgroundImage = "url('epicbackground.svg')" : item3.style.backgroundImage = "url('itembackground.svg')"
+    item7.getAttribute('src') == "beidou.svg" | item3.getAttribute('src') == "xinqiu.svg" | item3.getAttribute('src') == "yanfei.svg" ?
+    item7.style.backgroundImage = "url('epicbackground.svg')" : item3.style.backgroundImage = "url('itembackground.svg')"
+    item8.getAttribute('src') == "beidou.svg" | item3.getAttribute('src') == "xinqiu.svg" | item3.getAttribute('src') == "yanfei.svg" ?
+    item8.style.backgroundImage = "url('epicbackground.svg')" : item3.style.backgroundImage = "url('itembackground.svg')"
+    item9.getAttribute('src') == "beidou.svg" | item3.getAttribute('src') == "xinqiu.svg" | item3.getAttribute('src') == "yanfei.svg" ?
+    item9.style.backgroundImage = "url('epicbackground.svg')" : item3.style.backgroundImage = "url('itembackground.svg')"
+    item10.getAttribute('src') == "beidou.svg" | item3.getAttribute('src') == "xinqiu.svg" | item3.getAttribute('src') == "yanfei.svg" ?
+    item10.style.backgroundImage = "url('epicbackground.svg')" : item3.style.backgroundImage = "url('itembackground.svg')"
+    
     
 
     pity = 0
@@ -349,43 +350,42 @@ var images = [
     
     
     item1.getAttribute('src') == "/genshin_images/beidou.svg" | item1.getAttribute('src') == "/genshin_images/xinqiu.svg" | item1.getAttribute('src') == "/genshin_images/yanfei.svg" ? epicitensbackground() : console.log("não é")
-    item2.getAttribute('src') == "/genshin_images/beidou.svg" | item2.getAttribute('src') == "/genshin_images/xinqiu.svg" | item2.getAttribute('src') == "/genshin_images/yanfei.svg" ?
-    item2.style.backgroundImage = "url('/genshin_images/epicbackground.svg')" : item2.style.backgroundImage = "url('/genshin_images/itembackground.svg')"
-    item3.getAttribute('src') == "/genshin_images/beidou.svg" | item3.getAttribute('src') == "/genshin_images/xinqiu.svg" | item3.getAttribute('src') == "/genshin_images/yanfei.svg" ?
-    item3.style.backgroundImage = "url('/genshin_images/epicbackground.svg')" : item3.style.backgroundImage = "url('/genshin_images/itembackground.svg')"
-    item4.getAttribute('src') == "/genshin_images/beidou.svg" | item4.getAttribute('src') == "/genshin_images/xinqiu.svg" | item4.getAttribute('src') == "/genshin_images/yanfei.svg" ?
-    item4.style.backgroundImage = "url('/genshin_images/epicbackground.svg')" : item4.style.backgroundImage = "url('/genshin_images/itembackground.svg')"
-    item5.getAttribute('src') == "/genshin_images/beidou.svg" | item5.getAttribute('src') == "/genshin_images/xinqiu.svg" | item5.getAttribute('src') == "/genshin_images/yanfei.svg" ?
-    item5.style.backgroundImage = "url('/genshin_images/epicbackground.svg')" : item5.style.backgroundImage = "url('/genshin_images/itembackground.svg')"
-    item6.getAttribute('src') == "/genshin_images/beidou.svg" | item6.getAttribute('src') == "/genshin_images/xinqiu.svg" | item6.getAttribute('src') == "/genshin_images/yanfei.svg" ?
-    item6.style.backgroundImage = "url('/genshin_images/epicbackground.svg')" : item6.style.backgroundImage = "url('/genshin_images/itembackground.svg')"
-    item7.getAttribute('src') == "/genshin_images/beidou.svg" | item7.getAttribute('src') == "/genshin_images/xinqiu.svg" | item7.getAttribute('src') == "/genshin_images/yanfei.svg" ?
-    item7.style.backgroundImage = "url('/genshin_images/epicbackground.svg')" : item7.style.backgroundImage = "url('/genshin_images/itembackground.svg')"
-    item8.getAttribute('src') == "/genshin_images/beidou.svg" | item8.getAttribute('src') == "/genshin_images/xinqiu.svg" | item8.getAttribute('src') == "/genshin_images/yanfei.svg" ?
-    item8.style.backgroundImage = "url('/genshin_images/epicbackground.svg')" : item8.style.backgroundImage = "url('/genshin_images/itembackground.svg')"
-    item9.getAttribute('src') == "/genshin_images/beidou.svg" | item9.getAttribute('src') == "/genshin_images/xinqiu.svg" | item9.getAttribute('src') == "/genshin_images/yanfei.svg" ?
-    item9.style.backgroundImage = "url('/genshin_images/epicbackground.svg')" : item9.style.backgroundImage = "url('/genshin_images/itembackground.svg')"
-    item10.getAttribute('src') == "/genshin_images/beidou.svg" | item10.getAttribute('src') == "/genshin_images/xinqiu.svg" | item10.getAttribute('src') == "/genshin_images/yanfei.svg" ?
-    item10.style.backgroundImage = "url('/genshin_images/epicbackground.svg')" : item10.style.backgroundImage = "url('/genshin_images/itembackground.svg')"
+    item2.getAttribute('src') == "beidou.svg" | item2.getAttribute('src') == "xinqiu.svg" | item2.getAttribute('src') == "yanfei.svg" ?
+    item2.style.backgroundImage = "url('epicbackground.svg')" : item2.style.backgroundImage = "url('itembackground.svg')"
+    item3.getAttribute('src') == "beidou.svg" | item2.getAttribute('src') == "xinqiu.svg" | item2.getAttribute('src') == "yanfei.svg" ?
+    item3.style.backgroundImage = "url('epicbackground.svg')" : item2.style.backgroundImage = "url('itembackground.svg')"
+    item4.getAttribute('src') == "beidou.svg" | item2.getAttribute('src') == "xinqiu.svg" | item2.getAttribute('src') == "yanfei.svg" ?
+    item4.style.backgroundImage = "url('epicbackground.svg')" : item2.style.backgroundImage = "url('itembackground.svg')"
+    item5.getAttribute('src') == "beidou.svg" | item2.getAttribute('src') == "xinqiu.svg" | item2.getAttribute('src') == "yanfei.svg" ?
+    item5.style.backgroundImage = "url('epicbackground.svg')" : item2.style.backgroundImage = "url('itembackground.svg')"
+    item6.getAttribute('src') == "beidou.svg" | item2.getAttribute('src') == "xinqiu.svg" | item2.getAttribute('src') == "yanfei.svg" ?
+    item6.style.backgroundImage = "url('epicbackground.svg')" : item2.style.backgroundImage = "url('itembackground.svg')"
+    item7.getAttribute('src') == "beidou.svg" | item2.getAttribute('src') == "xinqiu.svg" | item2.getAttribute('src') == "yanfei.svg" ?
+    item7.style.backgroundImage = "url('epicbackground.svg')" : item2.style.backgroundImage = "url('itembackground.svg')"
+    item8.getAttribute('src') == "beidou.svg" | item2.getAttribute('src') == "xinqiu.svg" | item2.getAttribute('src') == "yanfei.svg" ?
+    item8.style.backgroundImage = "url('epicbackground.svg')" : item2.style.backgroundImage = "url('itembackground.svg')"
+    item9.getAttribute('src') == "beidou.svg" | item2.getAttribute('src') == "xinqiu.svg" | item2.getAttribute('src') == "yanfei.svg" ?
+    item9.style.backgroundImage = "url('epicbackground.svg')" : item2.style.backgroundImage = "url('itembackground.svg')"
+    item10.getAttribute('src') == "beidou.svg" | item2.getAttribute('src') == "xinqiu.svg" | item2.getAttribute('src') == "yanfei.svg" ?
+    item10.style.backgroundImage = "url('epicbackground.svg')" : item2.style.backgroundImage = "url('itembackground.svg')"
+        
     
+    item1.getAttribute('src') == "zhongli.svg" | item2.getAttribute('src') == "zhongli.svg" | 
+    item3.getAttribute('src') == "zhongli.svg" | item4.getAttribute('src') == "zhongli.svg" | 
+    item5.getAttribute('src') == "zhongli.svg" | item6.getAttribute('src') == "zhongli.svg" | 
+    item7.getAttribute('src') == "zhongli.svg" | item8.getAttribute('src') == "zhongli.svg" | 
+    item9.getAttribute('src') == "zhongli.svg" | item10.getAttribute('src') == "zhongli.svg" ? play5starsshot() : play4starsshot()
     
-    
-    item1.getAttribute('src') == "/genshin_images/zhongli.svg" | item2.getAttribute('src') == "/genshin_images/zhongli.svg" | 
-    item3.getAttribute('src') == "/genshin_images/zhongli.svg" | item4.getAttribute('src') == "/genshin_images/zhongli.svg" | 
-    item5.getAttribute('src') == "/genshin_images/zhongli.svg" | item6.getAttribute('src') == "/genshin_images/zhongli.svg" | 
-    item7.getAttribute('src') == "/genshin_images/zhongli.svg" | item8.getAttribute('src') == "/genshin_images/zhongli.svg" | 
-    item9.getAttribute('src') == "/genshin_images/zhongli.svg" | item10.getAttribute('src') == "/genshin_images/zhongli.svg" ? play5starsshot() : play4starsshot()
-    
-    item1.getAttribute('src') == "/genshin_images/zhongli.svg" ? item1.style.backgroundImage = "url('/genshin_images/background5stars.svg')" : console.log("não é")
-    item2.getAttribute('src') == "/genshin_images/zhongli.svg" ?  item2.style.backgroundImage = "url('/genshin_images/background5stars.svg')" : console.log("não é")
-    item3.getAttribute('src') == "/genshin_images/zhongli.svg" ? item3.style.backgroundImage = "url('/genshin_images/background5stars.svg')" : console.log("não é")
-    item4.getAttribute('src') == "/genshin_images/zhongli.svg" ? item4.style.backgroundImage = "url('/genshin_images/background5stars.svg')" : console.log("não é")
-    item5.getAttribute('src') == "/genshin_images/zhongli.svg" ? item5.style.backgroundImage = "url('/genshin_images/background5stars.svg')": console.log("não é")
-    item6.getAttribute('src') == "/genshin_images/zhongli.svg" ? item6.style.backgroundImage = "url('/genshin_images/background5stars.svg')" : console.log("não é")
-    item7.getAttribute('src') == "/genshin_images/zhongli.svg" ? item7.style.backgroundImage = "url('/genshin_images/background5stars.svg')": console.log("não é")
-    item8.getAttribute('src') == "/genshin_images/zhongli.svg" ? item8.style.backgroundImage = "url('/genshin_images/background5stars.svg')" : console.log("não é")
-    item9.getAttribute('src') == "/genshin_images/zhongli.svg" ? item9.style.backgroundImage = "url('/genshin_images/background5stars.svg')" : console.log("não é")
-    item10.getAttribute('src') == "/genshin_images/zhongli.svg" ? item10.style.backgroundImage = "url('/genshin_images/background5stars.svg')": console.log("não é")
+        item1.getAttribute('src') == "zhongli.svg" ? item1.style.backgroundImage = "url('background5stars.svg')" : console.log("não é")
+        item2.getAttribute('src') == "zhongli.svg" ? item2.style.backgroundImage = "url('background5stars.svg')" : console.log("não é")
+        item3.getAttribute('src') == "zhongli.svg" ? item3.style.backgroundImage = "url('background5stars.svg')" : console.log("não é")
+        item4.getAttribute('src') == "zhongli.svg" ? item4.style.backgroundImage = "url('background5stars.svg')" : console.log("não é")
+        item5.getAttribute('src') == "zhongli.svg" ? item5.style.backgroundImage = "url('background5stars.svg')" : console.log("não é")
+        item6.getAttribute('src') == "zhongli.svg" ? item6.style.backgroundImage = "url('background5stars.svg')" : console.log("não é")
+        item7.getAttribute('src') == "zhongli.svg" ? item7.style.backgroundImage = "url('background5stars.svg')" : console.log("não é")
+        item8.getAttribute('src') == "zhongli.svg" ? item8.style.backgroundImage = "url('background5stars.svg')" : console.log("não é")
+        item9.getAttribute('src') == "zhongli.svg" ? item9.style.backgroundImage = "url('background5stars.svg')" : console.log("não é")
+        item10.getAttribute('src') == "zhongli.svg" ? item10.style.backgroundImage = "url('background5stars.svg')" : console.log("não é")
     
     
     
@@ -417,8 +417,8 @@ var images = [
     
     play5starsshot()
     
-    item1.style.backgroundImage = "url('/genshin_images/background5stars.svg')"
-    item2.style.backgroundImage = "url('/genshin_images/epicbackground.svg')"
+    item1.style.backgroundImage = "url('background5stars.svg')"
+    item2.style.backgroundImage = "url('epicbackground.svg')"
     
 
     item3.getAttribute('src') == "/genshin_images/beidou.svg" | item3.getAttribute('src') == "/genshin_images/xinqiu.svg" | item3.getAttribute('src') == "/genshin_images/yanfei.svg" ?
