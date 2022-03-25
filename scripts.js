@@ -372,8 +372,8 @@ var images = [
     item10.style.backgroundImage = "url('epicbackground.svg')" : item10.style.backgroundImage = "url('itembackground.svg')"
         
         
-        
-        
+        pity5 = 0
+         pity5estrelas.innerHTML=  "Pity 5 estrelas: " + pity5
         
     
     item1.getAttribute('src') == "zhongli.svg" | item2.getAttribute('src') == "zhongli.svg" | 
@@ -423,6 +423,7 @@ var images = [
     
     
     pity = 0
+    
     
     pity4estrelas.innerHTML = "Pity 4 estrelas: " + pity
     pity5estrelas.innerHTML=  "Pity 5 estrelas: " + pity5
