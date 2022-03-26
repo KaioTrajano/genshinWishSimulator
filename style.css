@@ -170,7 +170,7 @@ margin-top: 5px;
     transform: translate(-50%, -50%); 
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 25px;
     visibility: hidden;
     background-image: url("backgroundgacha.png");
     background-size: cover;
@@ -191,6 +191,7 @@ margin-top: 5px;
     background-image: url("itembackground.svg");
     background-size: cover;
     cursor: pointer;
+    transform: scale(1.2);
     
     
 }
