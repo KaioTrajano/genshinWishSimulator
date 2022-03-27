@@ -393,7 +393,7 @@ video{
 }
 
 button:hover{
- 
+ background-color: rgb(224, 224, 224);
  transition: 0.3s;
  
 }
@@ -408,17 +408,25 @@ button:hover{
 
 @media (min-width: 1400px){
 
-    .banner {
+  .banner {
         margin: 0 auto;
-        margin-top: 3%;
-        background-color: antiquewhite;
-        width: 823px;
-        height: 405px;
+        margin-top: 5%;
+        width: 1253px;
+        height: 655px;
         animation: banneranimation 8s infinite;
         animation-timing-function: linear;
-
-       
+        border-radius: 5px;
     }
+
+
+    .banner img{
+        object-fit: cover;
+        border-radius: 5px;
+        width: 102%;
+        height: 102%;
+        
+    }
+    
 
 
 
