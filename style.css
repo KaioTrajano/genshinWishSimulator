@@ -392,12 +392,6 @@ video{
     margin-bottom: 45px;
 }
 
-button:hover{
- background-color: rgb(224, 224, 224);
- transition: 0.3s;
- 
-}
-
 
 
 @-webkit-keyframes popup {
