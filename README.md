@@ -44,5 +44,9 @@ Este é um projeto pensado e desenvolvido por mim, feito com o intúito de ser u
   - Html
   - Css
   
+  <h2> Link do projeto </h2>
+  
+ - [Genshim Wish Simulator](https://kaiotrajano.github.io/genshinWishSimulator/)
+  
   Realizado por Kaio Trajano https://www.linkedin.com/in/kaio-trajano-259413205/
   
