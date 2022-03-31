@@ -38,3 +38,9 @@ Este é um projeto pensado e desenvolvido por mim, feito com o intúito de ser u
 
 <img style=" width: 850px; margin: auto;" src="genshin-wish5.gif">
 
+  <h2>As seguintes tecnologias foram utilizadas nesse projeto</h2>
+  
+  - Javascript
+  - Html
+  - Css
+  
