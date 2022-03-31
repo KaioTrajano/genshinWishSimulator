@@ -1,4 +1,9 @@
-<h1>genshinWishSimulator</h1>
+
+
+![Image](https://imgur.com/L0OuBEB)
+
+
+<h1>GenshinWishSimulator</h1>
 
 >Status: Completo
 
