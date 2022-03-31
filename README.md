@@ -26,15 +26,15 @@ Este é um projeto pensado e desenvolvido por mim, feito com o intúito de ser u
 
 <h3> Animação de item 3 estrelas ⭐⭐⭐<h3>
 
-![](3stargif.gif)
+
+<img style=" width: 850px; margin: auto;" src="3stargif.gif">
 
 <h3> Animação de item 4 estrelas ⭐⭐⭐⭐<h3>
   
-![](wish42.gif)
+
+<img style=" width: 850px; margin: auto;" src="wish42.gif">
   
 <h3> Animação de item 5 estrelas ⭐⭐⭐⭐⭐<h3>
 
-![](genshin-wish5.gif)
-  
-<img style=" width: 800px; margin: auto;" src="genshin-wish5.gif">
+<img style=" width: 850px; margin: auto;" src="genshin-wish5.gif">
 
