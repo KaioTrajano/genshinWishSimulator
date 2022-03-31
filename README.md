@@ -1,6 +1,6 @@
 
 
-![Image](https://imgur.com/L0OuBEB)
+![alt text](https://ibb.co/SRMKS45)
 
 
 <h1>GenshinWishSimulator</h1>
