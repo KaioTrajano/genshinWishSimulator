@@ -11,6 +11,6 @@ Este é um projeto pensado e desenvolvido por mim, feito com o intúito de ser u
 
 ### Funcionalidades
 
-[x] Realizar desejos x1
-[x] Realizar desejos x10
-[x] Pular animação de desejo
+- [x] Realizar desejos x1
+- [x] Realizar desejos x10
+- [x] Pular animação de desejo
