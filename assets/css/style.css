@@ -1,0 +1,385 @@
+.banner {
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: rgba(82, 46, 240, 0.4) 5px 5px, rgba(59, 46, 240, 0.3) 10px 10px, rgba(65, 46, 240, 0.2) 15px 15px, rgba(59, 46, 240, 0.1) 20px 20px, rgba(88, 46, 240, 0.05) 25px 25px;
+    transition: 1s;
+}
+
+.banners img {
+    cursor: pointer;
+}
+
+.banners h1 {
+    color: rgb(245, 162, 53);
+}
+
+.banners {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+
+}
+
+.banner:hover {
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.banner {
+    animation: banneranimation 8s infinite;
+    animation-timing-function: linear;
+    background-color: antiquewhite;
+    height: 405px;
+    margin: 0 auto;
+    margin-top: 3%;
+    width: 823px;
+
+}
+
+.buttons {
+    background-color: red;
+    margin: auto;
+    margin-top: 75px;
+    width: 80%;
+}
+
+button {
+    background-color: rgb(250, 249, 249);
+    border: none;
+    border-radius: 15px;
+    color: rgb(82, 82, 82);
+    cursor: pointer;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin: 8px;
+    padding: 7px;
+    text-align: center;
+    width: 120px;
+}
+
+button:hover {
+    filter: brightness(80%);
+    transform: scale(1.1);
+}
+
+#characters {
+    margin-left: -5px;
+    margin-top: 12px;
+}
+
+.dialog {
+
+    animation: popup 0.8s;
+    background-color: rgb(255, 255, 255);
+    background-image: url(popupbackground.png);
+    background-size: cover;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    height: 350px;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(82, 82, 82);
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+
+}
+
+.dialog button {
+    align-items: center;
+    background-color: rgb(53, 53, 53);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    height: 35px;
+    margin-left: 200px;
+    margin-top: 35px;
+    padding: 5px;
+    width: 150px;
+
+}
+
+.dialog img:nth-child(1) {
+    margin-left: 8px;
+    margin-right: 5px;
+}
+
+.dialog h1 {
+    margin-bottom: 45px;
+}
+
+.fa-circle-xmark {
+    cursor: pointer;
+    color: white;
+    font-size: 35px;
+    left: 93%;
+    margin-top: 15px;
+    position: absolute;
+    top: 5%;
+}
+
+.fa-circle-xmark:hover {
+    filter: brightness(80%);
+}
+
+.fragmentos {
+    background-color: rgb(68, 68, 68);
+    border-radius: 15px;
+    color: white;
+    font-size: 12px;
+    height: 30px;
+    margin: 0px;
+    text-align: center;
+    width: 120px;
+}
+
+.fragmentos h2 {
+    margin-top: 5px;
+}
+
+.item {
+    object-fit: cover;
+    width: 100%;
+
+}
+
+
+.left {
+    float: left;
+    justify-content: center;
+    margin-left: 55px;
+    margin-top: -15px;
+    text-align: center;
+}
+
+#modal {
+    height: 698px;
+    width: 1348px;
+}
+
+.modal {
+    background-color: white;
+    background-image: url("backgroundgacha.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    gap: 25px;
+    height: 100%;
+    justify-content: center;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    width: 100%;
+
+}
+
+.modal div {
+    align-items: center;
+    background-color: rgb(49, 49, 49);
+    background-image: url("itembackground.svg");
+    background-size: cover;
+    border-radius: 10px;
+    filter: brightness(100%);
+    height: 279px;
+    margin-top: 15%;
+    transform: scale(1.2);
+    vertical-align: middle;
+    width: 100px;
+
+}
+
+.modal div:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.modal div img {
+    border-radius: 10px;
+    height: 279px;
+    object-fit: cover;
+    width: 100px;
+}
+
+
+
+
+.modalvideo {
+    background-color: white;
+    height: 100%;
+    left: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    width: 100%;
+
+}
+
+.modalvideo2 {
+    cursor: default;
+    height: 100%;
+    left: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    width: 100%;
+
+}
+
+.modalvideo {
+    background-color: white;
+    height: 698px;
+    left: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    width: 1349px;
+
+}
+
+#modalvideo p {
+    z-index: 1;
+    position: absolute;
+    font-size: 25px;
+    margin-left: 85%;
+    background-color: white;
+    border-radius: 50px;
+    padding: 3px;
+    padding-right: 8px;
+    padding-left: 8px;
+    font-family: sans-serif;
+    width: 100px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(70, 70, 70);
+    cursor: pointer;
+
+
+
+}
+
+#modalvideo2 p {
+    z-index: 1;
+    position: absolute;
+    font-size: 25px;
+    margin-left: 85%;
+    background-color: white;
+    border-radius: 50px;
+    padding: 3px;
+    padding-right: 8px;
+    padding-left: 8px;
+    font-family: sans-serif;
+    width: 100px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(70, 70, 70);
+    cursor: pointer;
+
+
+}
+
+#modalvideo3 p {
+    z-index: 1;
+    position: absolute;
+    font-size: 25px;
+    margin-left: 85%;
+    background-color: white;
+    border-radius: 50px;
+    padding: 3px;
+    padding-right: 8px;
+    padding-left: 8px;
+    font-family: sans-serif;
+    width: 100px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(70, 70, 70);
+    cursor: pointer;
+
+
+}
+
+.orbes {
+    font-size: 12px;
+    color: white;
+    background-color: rgb(68, 68, 68);
+    border-radius: 15px;
+    width: 120px;
+    height: 30px;
+    margin: 0px;
+    text-align: center;
+    margin-left: -25%;
+
+}
+
+.orbes h2 {
+    margin-top: 5px;
+}
+
+.pity {
+    color: rgb(82, 82, 82);
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 150px;
+}
+
+.right {
+    justify-content: center;
+    text-align: center;
+    float: right;
+    margin-right: 55px;
+    margin-top: -15px;
+}
+
+@keyframes popup {
+    from {
+        opacity: 0;
+        top: 40%;
+    }
+
+    to {
+        opacity: 1;
+        top: 50%;
+    }
+}
+
+
+@media (min-width: 1400px) {
+
+    .banner {
+        margin: 0 auto;
+        margin-top: 5%;
+        width: 1253px;
+        height: 655px;
+        animation: banneranimation 8s infinite;
+        animation-timing-function: linear;
+        border-radius: 5px;
+    }
+
+
+    .banner img {
+        object-fit: cover;
+        border-radius: 5px;
+        width: 102%;
+        height: 102%;
+
+    }
+
+}
