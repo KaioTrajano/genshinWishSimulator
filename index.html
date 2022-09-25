@@ -1,120 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/fontawesome.min.css">
     <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://kaiotrajano.github.io/genshinWishSimulator/style.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://kit.fontawesome.com/95442199ab.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="_css/styles.css">
-    <link rel="stylesheet" href="https://kaiotrajano.github.io/genshinWishSimulator/style.css">
-   
     
+
     <title>Genshin wish simulator</title>
 </head>
 
 
 <body id="corpo">
- 
-        <audio src="wishmusic.mp3" allow="autoplay" loop  style="display:none" id="iframeAudio">
-        </audio>
-        <audio src="buttoneffect.mp3" style="display:none" id="buttoneffect">
-        </audio>
-        <audio src="pushsound.mp3" style="display:none" id="pushsound">
-        </audio>  
-        
 
-<main id="principal">
+    <audio src="./assets/audio/wishmusic.mp3" allow="autoplay" loop style="display:none" id="iframeAudio">
+    </audio>
+    <audio src="./assets/audio/buttoneffect.mp3" style="display:none" id="buttoneffect">
+    </audio>
+    <audio src="./assets/audio/pushsound.mp3" style="display:none" id="pushsound">
+    </audio>
 
-<div class="banners">
-    <h1></h1>
-    <div class="bannericon">
-  <img id="banneroption" src="zhongliimage2.png" alt="">
-  </div>
-    <div class="pity">
-     <img src="">
-    <label id="pity4">Pity 4 estrelas: 0</label>
-    <label id="pity5">Pity 5 estrelas: 0</label>
-  </div>
-</div>
 
-<div class="banner">
- <img src="bannerzhongli.svg" alt="">
-</div>
+    <main id="principal">
 
-<div class="buttons">
-    
-    <div class="left">
-    <button>Loja</button>
-    <button>Detalhes</button>
-    <button>Historico</button>
-     </div>
+        <div class="banners">
+            <h1></h1>
+            <div class="bannericon">
+                <img id="banneroption" src="./assets/img/zhongliimage2.png" alt="">
+            </div>
+            <div class="pity">
+                <img src="">
+                <label id="pity4">Pity 4 estrelas: 0</label>
+                <label id="pity5">Pity 5 estrelas: 0</label>
+            </div>
+        </div>
 
-    <div class="right">
-    <button onclick="push1()">Desejo x1</button>
-    <button onclick="push10()">Desejo x10</button>
+        <div class="banner">
+            <img src="./assets/img/bannerzhongli.svg" alt="">
+        </div>
+
+        <div class="buttons">
+
+            <div class="left">
+                <button>Loja</button>
+                <button>Detalhes</button>
+                <button>Historico</button>
+            </div>
+
+            <div class="right">
+                <button onclick="push1()">Desejo x1</button>
+                <button onclick="push10()">Desejo x10</button>
+            </div>
+
+        </div>
+
+        <div class="modal" id="modal">
+            <i onclick="fechar()" class="fa-solid fa-circle-xmark"></i>
+            <div id="div1" class="item1"><img src="" alt="" class="item" id="item1"></div>
+            <div id="div2" class="item2"><img src="" alt="" class="item" id="item2"></div>
+            <div class="item3" id="div3"><img src="" alt="" class="item" id="item3"></div>
+            <div class="item4" id="div4"><img src="" alt="" class="item" id="item4"></div>
+            <div class="item5" id="div5"><img src="" alt="" class="item" id="item5"></div>
+            <div class="item6" id="div6"><img src="" alt="" class="item" id="item6"></div>
+            <div class="item7" id="div7"><img src="" alt="" class="item" id="item7"></div>
+            <div class="item8" id="div8"><img src="" alt="" class="item" id="item8"></div>
+            <div class="item9" id="div9"><img src="" alt="" class="item" id="item9"></div>
+            <div class="item10" id="div10"><img src="" alt="" class="item" id="item10"></div>
+        </div>
+
+
+
+        <div class="modalvideo" id="modalvideo">
+            <p id="skip" onclick="pular()">Pular >></p>
+            <video over id="videoshot5">
+                <source src="./assets/img/5starwish.mp4" type="video/mp4" />
+            </video>
+        </div>
+
+        <div class="modalvideo2" id="modalvideo2">
+            <p id="skip" onclick="pular()">Pular >></p>
+            <video over id="videoshot">
+                <source src="./assets/img/4starsshot.mp4" type="video/mp4" />
+            </video>
+        </div>
+
+        <div class="modalvideo3" id="modalvideo3">
+            <p id="skip" onclick="pular()">Pular >></p>
+            <video over id="videoshot3">
+                <source src="./assets/img/3starshot.mp4" type="video/mp4" />
+            </video>
+        </div>
+
+
+
+
+
+    </main>
+
+
+
+    <div class="dialog" id="dialog">
+        <h1>Genshin Simulador de banner</h1>
+        <img id="characters" src="./assets/img/popupimage.png">
+        <button id="confirm"><img src="./assets/img/circle.png">Confirmar</button>
     </div>
 
-</div>
-
-<div class="modal" id="modal">
-    <i onclick="fechar()" class="fa-solid fa-circle-xmark"></i>
-    <div id="div1" class="item1"><img src="" alt="" class="item" id="item1"></div>
-    <div id="div2" class="item2"><img src="" alt="" class="item" id="item2"></div>
-    <div class="item3" id="div3"><img src="" alt="" class="item" id="item3"></div>
-    <div class="item4" id="div4"><img src="" alt="" class="item" id="item4"></div>
-    <div class="item5" id="div5"><img src="" alt="" class="item" id="item5"></div>
-    <div class="item6" id="div6"><img src="" alt="" class="item" id="item6"></div>
-    <div class="item7" id="div7"><img src="" alt="" class="item" id="item7"></div>
-    <div class="item8" id="div8"><img src="" alt="" class="item" id="item8"></div>
-    <div class="item9" id="div9"><img src="" alt="" class="item" id="item9"></div>
-    <div class="item10" id="div10"><img src=""alt="" class="item" id="item10"></div>
+    <script src="./assets/js/scripts.js"></script>
     
-</div>
-
-
-
-<div class="modalvideo" id="modalvideo">
-    <p id="skip" onclick="pular()">Pular >></p>
-    <video over  id="videoshot5">
-        <source src="5starwish.mp4" type="video/mp4" />
-        </video>  
-</div>
-
-<div class="modalvideo2" id="modalvideo2">
-    <p id="skip" onclick="pular()">Pular >></p>
-    <video over  id="videoshot">
-        <source src="4starsshot.mp4" type="video/mp4" />
-        </video>
-</div>
-
-<div class="modalvideo3" id="modalvideo3">
-    <p id="skip" onclick="pular()">Pular >></p>
-    <video over id="videoshot3">
-        <source src="3starshot.mp4" type="video/mp4" />
-        </video>
-</div>
-
-
-
-
-
-</main>
-
-
-
-<div class="dialog" id="dialog">
-    <h1>Genshin Simulador de banner</h1>
-    <img id="characters" src="popupimage.png">
-    <button id="confirm"><img src="circle.png">Confirmar</button>
-    </div>
-
 </body>
-
- <script src="https://kaiotrajano.github.io/genshinWishSimulator/scripts.js"></script>
-
-
 
 </html>
