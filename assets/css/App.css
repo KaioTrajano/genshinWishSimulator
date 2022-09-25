@@ -1,0 +1,36 @@
+@import url(./style.css);
+
+html {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    background-image: url("backgrounddesejo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    color: rgb(82, 82, 82);
+
+
+}
+
+main {
+    filter: brightness(50%) blur(2px);
+    transition: 0.3s;
+}
+
+label {
+    margin-right: 25px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    padding: 8px;
+}
+
+video {
+    width: 100%;
+}
